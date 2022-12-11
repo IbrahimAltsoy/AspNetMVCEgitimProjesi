@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewData["Title"] = "SessionOku";
+}
+
+<h1>SessionOku</h1>
+
+<div>
+    Sessiondaki değer : @TempData["SessionBilgi"]
+</div>
+
+<div>
+    Sessiondaki user guid : @TempData["userGuid"]
+</div>
+
+<a asp-action="SessionSil">
+    SessionSil
+</a>
